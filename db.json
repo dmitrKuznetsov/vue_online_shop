@@ -1,150 +1,52 @@
 {
-    "contacts": [
+    "products": [
       {
-        "id": 1,
-        "name": "Tom",
-        "phone": "8-800-555-22-33",
-        "status": "online"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb2x7rPOcfVaIFyTqW6lZUPIMUNkV3vJVRqQ&usqp=CAU",
+        "name": "T-shirt 1",
+        "price": 2100.234234234,
+        "article": "T1",
+        "available": true,
+        "category": "Мужские"
       },
       {
-        "id": 2,
-        "name": "Sam",
-        "phone": "8-800-888-22-33",
-        "status": "offline"
+        "image": "2.jpg",
+        "name": "T-shirt 2",
+        "price": 3150.12312412,
+        "article": "T2",
+        "available": true,
+        "category": "Женские"
       },
       {
-        "id": 3,
-        "name": "Samuel",
-        "phone": "8-800-232-22-33",
-        "status": "offline"
+        "image": "3.jpg",
+        "name": "T-shirt 3",
+        "price": 4200.51524,
+        "article": "T3",
+        "available": false,
+        "category": "Женские"
       },
       {
-        "id": 4,
-        "name": "Jack",
-        "phone": "8-800-777-22-33",
-        "status": "online"
+        "image": "4.jpg",
+        "name": "T-shirt 4",
+        "price": 5300.1245512,
+        "article": "T4",
+        "available": true,
+        "category": "Мужские"
       },
       {
-        "id": 5,
-        "name": "Miranda",
-        "phone": "8-800-241-22-33",
-        "status": "offline"
-      }
-    ],
-    "chats": [
-      {
-        "id": 1,
-        "name": "Tom",
-        "chat": [
-          {
-            "id": 1,
-            "time": "19:10",
-            "text": "Hi there! How r u doin'? ",
-            "type": "own"
-          },
-          {
-            "id": 2,
-            "time": "19:31",
-            "text": "Fine, and how r u?",
-            "type": "others"
-          },
-          {
-            "id": 3,
-            "time": "14:14",
-            "text": "Im fine too ty!",
-            "type": "own"
-          }
-        ]
+        "image": "5.jpg",
+        "name": "T-shirt 5",
+        "price": 6500.3522314,
+        "article": "T5",
+        "available": false,
+        "category": "Женские"
       },
       {
-        "id": 2,
-        "name": "Sam",
-        "chat": [
-          {
-            "id": 1,
-            "time": "19:10",
-            "text": "Hi there! How r u doin'? ",
-            "type": "own"
-          },
-          {
-            "id": 2,
-            "time": "19:31",
-            "text": "Fine, and how r u?",
-            "type": "others"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Samuel",
-        "chat": [
-          {
-            "id": 1,
-            "time": "18:30",
-            "text": "Hi there! How r u doin'? ",
-            "type": "own"
-          },
-          {
-            "id": 2,
-            "time": "19:31",
-            "text": "Fine, and how r u?",
-            "type": "others"
-          },
-          {
-            "id": 3,
-            "time": "19:33",
-            "text": "I'm OK too :) ",
-            "type": "own"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Jack",
-        "chat": [
-          {
-            "id": 1,
-            "time": "18:30",
-            "text": "Hi there! How r u doin'? ",
-            "type": "own"
-          },
-          {
-            "id": 2,
-            "time": "19:31",
-            "text": "Fine, and how r u?",
-            "type": "others"
-          },
-          {
-            "id": 3,
-            "time": "19:33",
-            "text": "I'm OK too :) ",
-            "type": "own"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "name": "Miranda",
-        "chat": [
-          {
-            "id": 1,
-            "time": "18:20",
-            "text": "Hi there! How r u doin'? ",
-            "type": "own"
-          },
-          {
-            "id": 2,
-            "time": "19:31",
-            "text": "Fine, and how r u?",
-            "type": "others"
-          },
-          {
-            "id": 4,
-            "time": "19:33",
-            "text": "I'm OK too :) ",
-            "type": "own"
-          }
-        ]
+        "image": "6.jpeg",
+        "name": "T-shirt 6",
+        "price": 8700.4124123,
+        "article": "T6",
+        "available": true,
+        "category": "Женские"
       }
     ]
   }

@@ -26,7 +26,7 @@ export default {
     methods: {},
     watch: {},
     mounted() {
-        console.log("Hello i am alive!")
+        // console.log("Hello i am alive!")
     },
 }
 </script>
@@ -34,10 +34,7 @@ export default {
 
 <style>
     .v-main-wrapper {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+
         max-width: 900px;
         margin: 0 auto;
     }
