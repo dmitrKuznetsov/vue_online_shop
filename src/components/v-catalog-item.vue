@@ -11,6 +11,7 @@
     </div>
 </template>
 
+
 <script>
 export default {
     name: "v-catalog-item",
@@ -33,6 +34,7 @@ export default {
     }
 }
 </script>
+
 
 <style lang="scss">
     .v-catalog-item {

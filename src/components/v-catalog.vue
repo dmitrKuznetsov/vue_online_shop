@@ -3,7 +3,7 @@
         <h1>Catalog</h1>
         <div class="v-catalog__list">
             <v-catalog-item
-                v-for="product in products"
+                v-for="product in PRODUCTS"
                 :key="product.article"
                 :product_data="product"
                 @sendArticle="showChildArticletoConsole"
@@ -13,9 +13,10 @@
     </div>
 </template>
 
+
 <script>
 import vCatalogItem from './v-catalog-item.vue'
-import products from './test'
+import {mapActions, mapGetters} from 'vuex'
 
 export default {
     name: "v-catalog",
@@ -24,18 +25,27 @@ export default {
     },
     props: {},
     data() {
-        return {
-            products
-        }
+        return {}
     },
-    computed: {},
+    computed: {
+        ...mapGetters([
+            "PRODUCTS"
+        ]),
+    },
     methods: {
+        ...mapActions([
+            "GET_PRODUCTS_FROM_API"
+        ]),
         showChildArticletoConsole(data) {
             console.log(data);
         }
-    }
+    },
+    mounted() {
+        this.GET_PRODUCTS_FROM_API()
+    },
 }
 </script>
+
 
 <style lang="scss">
     .v-catalog {
