@@ -31,6 +31,10 @@ export default {
         addToCart() {
             this.$emit("addToCart", this.product_data)
         }
+    },
+    mounted() {
+        // eslint-disable-next-line
+        this.product_data["quantity"] = 1
     }
 }
 </script>

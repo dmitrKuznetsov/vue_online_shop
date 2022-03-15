@@ -4,7 +4,7 @@ import { createStore } from 'vuex'
 export default createStore({
     state: {
             products:   [],
-            cart:       []
+            cart:       [],
     },
     mutations: {                //they're synch
         SET_PRODUCTS_TO_STATE(state, products) {

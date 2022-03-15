@@ -1,48 +1,38 @@
 <template>
     <div class="v-main-wrapper">
-        <p>{{title}}</p>
-        <v-catalog />
-        <v-cart 
-        v-if="CART.length"
-        :cart_data="CART"
-    />
+        <keep-alive>  
+            <router-view></router-view>
+        </keep-alive>
+        
     </div>
 </template>
 
 <script>
-import vCatalog from './v-catalog.vue'
-import vCart from './v-cart.vue'
+// !! <keep-alive> - позволяет сохранять на странице данные не из стора
+
 import { mapGetters } from 'vuex'
 
 export default {
     name: "v-main-wrapper",
-    components: {
-        vCatalog,
-        vCart
-    },
+    components: {},
     pages: {},
     data() {
-        return {
-            title: "Main wrapper"
-        }
+        return {}
     },
     computed: {
         ...mapGetters([
-            "CART"
+            // "CART"
         ])
     },
     methods: {},
     watch: {},
-    mounted() {
-        // console.log("Hello i am alive!")
-    },
+    mounted() {},
 }
 </script>
 
 
 <style>
     .v-main-wrapper {
-
         max-width: 900px;
         margin: 0 auto;
     }

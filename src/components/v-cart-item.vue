@@ -35,11 +35,7 @@ export default {
             this.$emit("deleteFromCart")
         }
     },
-    mounted() {
-        // this.$set(this.cart_item_data, "quantity", 1)
-        // eslint-disable-next-line
-        this.cart_item_data["quantity"] = 1
-    }
+    mounted() {}
 }
 </script>
 
